@@ -3145,8 +3145,9 @@ input[type="submit"].btn.btn-mini {
   min-height: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #392649;
-  background-image: -moz-linear-gradient(top, #392659, #392659);
+  /*background-color: #392649;*/
+  background-image: url('../../images/navbar_background.jpg') ;
+  /*background-image: -moz-linear-gradient(top, #392659, #392659);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#392659), to(#392659));
   background-image: -webkit-linear-gradient(top, #392659, #392659);
   background-image: -o-linear-gradient(top, #392659, #392659);
@@ -3159,7 +3160,7 @@ input[type="submit"].btn.btn-mini {
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);*/
 }
 .navbar .container {
   width: auto;
@@ -3327,10 +3328,32 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .nav > li > a {
   float: none;
-  padding: 10px 15px 10px;
-  color: #555555;
+  /*padding: 10px 15px 10px;*/
+  padding:0px 0px;
+  margin-top: 12px ;
+  margin-right: 20px ;
+  color: #C4B2D6;
   text-decoration: none;
-  text-shadow: 0 1px 0 #ffffff;
+  /*text-shadow: 0 1px 0 #ffffff;*/
+  background-image: url('../../images/menu_circles.png');
+  width: 74px ;
+  height: 37px ;
+  font-family: "appleBerry",Verdana, Arial, sans-serif;
+  line-height: 38px;
+  font-size: 14px ;
+  text-align:center ;
+}
+#logoText {
+	font-family: "appleBerry",Verdana, Arial, sans-serif;
+	background-image: none ;
+	font-size: 40px ;
+	width: 240px ;
+}
+#logoText .light, #logoText .light:hover {
+	color: #c4b2d6;
+}
+#logoText .dark, #logoText .dark:hover {
+	color: #9079a3;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
@@ -3338,8 +3361,10 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   background-color: transparent;
-  color: #333333;
+  color: #ffffff;
   text-decoration: none;
+  background-image: url('../../images/menu_circles.png');
+  background-position: 74px 0px ;
 }
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
