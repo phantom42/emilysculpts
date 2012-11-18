@@ -1,3 +1,71 @@
 .appleBerry {
 	font-family: appleBerry, Verdana, Arial, sans-serif;
 }
+#mainContent {
+	margin-top:75px ;
+	background-color:#1F0A2F ;
+	min-width: 980px ;
+	height: 100% ;
+}
+#contentWindow {
+	padding: 0px ;
+}
+.contentArea {
+	padding: 20px ;
+}
+.purpleBorder {
+	border: 2px solid #9079a3 ;
+}
+.darkBG {
+	background-color: #392649 ;
+}
+.lightBG {
+	background-color: #4f3b60 ;
+}
+.contentZone {
+	padding-top: 20px ;
+	margin-left: 0px ;
+	padding-left: 20px ;
+	background-color: #392649 ;
+}
+.sideBar {
+	padding-top: 20px ;
+	margin-left: 0px ;
+	padding-left: 20px ;
+}
+.sideNav {
+	margin-left: 20px ;
+}
+.rightContent {
+	/*height: 100% ;*/
+	height:500px ;
+}
+.leftContent {
+	/*height: 100% ;*/
+	height:500px;
+}
+.left-rounded {
+	-webkit-border-top-left-radius: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	-moz-border-radius-topleft: 12px;
+	-moz-border-radius-bottomleft: 12px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+.right-rounded {
+	-webkit-border-top-right-radius: 12px;
+	-webkit-border-bottom-right-radius: 12px;
+	-moz-border-radius-topright: 12px;
+	-moz-border-radius-bottomright: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+.no-space [class*="span"] {
+    margin-left: 0;
+}
+.no-space {
+    margin-left:0;
+}
+.mainHeight {
+	height: 500px ;
+}
