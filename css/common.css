@@ -69,3 +69,85 @@
 .mainHeight {
 	height: 500px ;
 }
+.mainImage {
+	width:97% ;
+}
+a.footer {
+	width: 32px ;
+	height: 31px ;
+	display: block;
+	float:left ;
+}
+a.facebook {
+	background-image: url('../images/social_normal.png');
+	background-position: 0px 0px ;
+}
+a.facebook:hover {
+	background-image: url('../images/social_rollover.png');
+	background-position: 0px 0px ;
+}
+a.tumblr {
+	background-image: url('../images/social_normal.png');
+	background-position: -40px 0px ;
+}
+a.tumblr:hover {
+	background-image: url('../images/social_rollover.png');
+}
+a.twitter {
+	background-image: url('../images/social_normal.png');
+	background-position: -80px 0px ;
+}
+a.twitter:hover {
+	background-image: url('../images/social_rollover.png');
+}
+a.linkedin {
+	background-image: url('../images/social_normal.png');
+	background-position: -120px 0px ;
+}
+a.linkedin:hover {
+	background-image: url('../images/social_rollover.png');
+}
+a.deviantart {
+	background-image: url('../images/social_normal.png');
+	background-position: -162px 0px ;
+}
+a.deviantart:hover {
+	background-image: url('../images/social_rollover.png');
+}
+a.wordpress {
+	background-image: url('../images/social_normal.png');
+	background-position: -204px 0px ;
+}
+a.wordpress:hover {
+	background-image: url('../images/social_rollover.png');
+}
+a.etsy {
+	background-image: url('../images/social_normal.png');
+	background-position: -244px 0px ;
+}
+a.etsy:hover {
+	background-image: url('../images/social_rollover.png');
+}
+a.rss {
+	background-image: url('../images/social_normal.png');
+	background-position: -285px 0px ;
+}
+a.rss:hover {
+	background-image: url('../images/social_rollover.png');
+}
+.footerList {
+	
+	float:left ;
+	display: block ;
+}
+.footerList > li {
+	list-style: none outside none;
+	float:left ;
+	padding-left:5px ;
+}
+.footerLinks {
+	text-align: right ;
+}
+.footerBar {
+	height:31px ;
+}
