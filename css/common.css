@@ -151,3 +151,39 @@ a.rss:hover {
 .footerBar {
 	height:31px ;
 }
+.navCircle {
+	display: block ;
+	height: 78px ;
+	width: 85% ;
+	padding: 10px 0px 10px 0px ;
+	font-size:18pt ;
+	line-height: 88px ;
+	background-repeat:no-repeat;
+}
+.navCircle a:hover {
+	color:#ffffff ;
+	text-decoration:none ;
+}
+.leftCircle {
+	padding-left:40px ;
+}
+.rightCircle {
+	text-align:right ;
+	padding-right:40px ;
+}
+.circle1 {
+	background-image: url('../images/circle_1.png');
+	background-position: left center ;
+}
+.circle2 {
+	background-image: url('../images/circle_2.png');
+	background-position: right center ;
+}
+.circle3 {
+	background-image: url('../images/circle_3.png');
+	background-position: left center ;
+}
+.circle4 {
+	background-image: url('../images/circle_4.png');
+	background-position: right center ;
+}
