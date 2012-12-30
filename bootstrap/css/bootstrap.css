@@ -604,8 +604,8 @@ dd {
 hr {
   margin: 20px 0;
   border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #9079a3;
+  border-bottom: 1px solid #9079a3;
 }
 abbr[title] {
   cursor: help;
@@ -3342,18 +3342,6 @@ input[type="submit"].btn.btn-mini {
   line-height: 38px;
   font-size: 14px ;
   text-align:center ;
-}
-#logoText {
-	font-family: "appleBerry",Verdana, Arial, sans-serif;
-	background-image: none ;
-	font-size: 40px ;
-	width: 240px ;
-}
-#logoText .light, #logoText .light:hover {
-	color: #c4b2d6;
-}
-#logoText .dark, #logoText .dark:hover {
-	color: #9079a3;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;

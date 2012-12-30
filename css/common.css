@@ -1,6 +1,18 @@
 .appleBerry {
 	font-family: appleBerry, Verdana, Arial, sans-serif;
 }
+#logoText {
+	font-family: "appleBerry",Verdana, Arial, sans-serif;
+	background-image: none ;
+	font-size: 40px ;
+	width: 240px ;
+}
+#logoText .light, #logoText .light:hover {
+	color: #c4b2d6;
+}
+#logoText .dark, #logoText .dark:hover {
+	color: #9079a3;
+}
 #mainContent {
 	margin-top:75px ;
 	background-color:#1F0A2F ;
@@ -67,7 +79,7 @@
     margin-left:0;
 }
 .mainHeight {
-	height: 500px ;
+	height: 550px ;
 }
 .mainImage {
 	width:97% ;
@@ -186,4 +198,18 @@ a.rss:hover {
 .circle4 {
 	background-image: url('../images/circle_4.png');
 	background-position: right center ;
+}
+.headline {
+	float: right ;
+	font-size: 24px ;
+}
+.homeText {
+	padding: 20px 20px 20px 0px ; 
+}
+hr {
+	color:#9079a3;
+}
+.homeText > span > hr {
+	margin:30px 0px ;
+	width:100%
 }
