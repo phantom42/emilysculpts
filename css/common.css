@@ -247,7 +247,6 @@ hr {
 }
 #galleryLeft, #galleryThumbs, #galleryRight {
 	height:510px ;
-	border: thin solid #f00 ;
 	text-align: center ;
 }
 #galleryLeft {
@@ -256,11 +255,12 @@ hr {
 	
 }
 #galleryThumbs>ul.thumbnails {
-	margin-left:0px ;
+	width:900px ;
+	margin:0px auto ;
 }
 #galleryThumbs>ul>li{
 	display: block ;
-	margin-left: auto ;
+	margin-left: 5% ;
 	margin-right: auto ;
 }
 img.roundedThumb {
@@ -274,4 +274,33 @@ img.roundedThumb:hover {
 	-webkit-border-radius: 12px;
        -moz-border-radius: 12px;
             border-radius: 12px;
+}
+#galleryThumbs>ul.firstRow {
+	margin-top: 7% ;
+	margin-bottom: auto ;
+	
+}
+a.leftNavArrow {
+	background-image: url('../images/left_arrow.png');
+	background-position: 0px 0px ;
+	height:33px ;
+	width: 23px ;
+	display: block ;
+	margin: 220px auto auto 50% ;;
+}
+a.leftNavArrow:hover {
+	background-image: url('../images/left_arrow.png');
+	background-position:-23px 0px ;
+}
+a.rightNavArrow {
+	background-image: url('../images/right_arrow.png');
+	background-position: 0px 0px ;
+	height:33px ;
+	width: 23px ;
+	display: block ;
+	margin: 220px auto auto 10% ;;
+}
+a.rightNavArrow:hover {
+	background-image: url('../images/right_arrow.png');
+	background-position:-23px 0px ;
 }
