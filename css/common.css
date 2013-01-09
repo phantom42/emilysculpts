@@ -304,3 +304,21 @@ a.rightNavArrow:hover {
 	background-image: url('../images/right_arrow.png');
 	background-position:-23px 0px ;
 }
+.aboutPhoto
+{
+	display: block;
+}
+.testBorder {
+	border:thin solid red ;
+}
+.fullWidth {
+	width:100%;
+}
+#leftPhoto {
+	padding-top:20px ;
+}
+#rightText {
+	padding-top:20px ;
+	overflow: auto ;
+	height:470px ;
+}
