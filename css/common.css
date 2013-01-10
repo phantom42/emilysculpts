@@ -329,3 +329,15 @@ a.rightNavArrow:hover {
 	height:480px ;
 	width:94% ;
 }
+.formLabel {
+	width:30% ;
+	text-align:right ;
+	float:left ;
+}
+.formInput{
+	width:70% ;
+	float:right ;
+}
+#contactForm {
+	padding-top:20px ;
+}

@@ -1110,7 +1110,7 @@ input[type="color"],
 }
 input,
 textarea {
-  width: 210px;
+  width: 90%;
 }
 textarea {
   height: auto;
@@ -1755,7 +1755,7 @@ legend + .control-group {
 .form-horizontal .control-label {
   float: left;
   width: 140px;
-  padding-top: 5px;
+  /*padding-top: 5px;*/
   text-align: right;
 }
 .form-horizontal .controls {
